@@ -11,8 +11,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.MY_PERSONAL_TOKEN }}
       - name: Generate Snake
         uses: Platane/snk@master
         id: snake-gif
